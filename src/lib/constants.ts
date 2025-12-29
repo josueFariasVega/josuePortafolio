@@ -12,6 +12,7 @@ import jsCertificate from "figma:asset/0a7a09e118c65a5859d212dfc31c9eb14c6bd808.
 import cssCertificate from "figma:asset/28fdf842458df3b47b10d1b74f5b11e869fcc0e9.png";
 import htmlCertificate from "figma:asset/fffa7ab732f97edff148fcaa51906df7829ae7b2.png";
 import nestCertificate from "figma:asset/eed5e69760a4afe6b153b3fd4a78be485271380b.png";
+import profitGuardImage from "../assets/profit-guard.png";
 
 export const PERSONAL_INFO = {
   name: "Josué Farías",
@@ -182,6 +183,26 @@ export const PROJECTS: Project[] = [
     imageUrl: "https://subir-imagen.com/images/2025/10/01/Screenshot-2025-10-01-124639.png",
     githubUrl: "https://github.com/josueFariasVega/nutri-ai",
     liveUrl: "https://nutri-ai-sigma.vercel.app/",
+    featured: true,
+    status: "completed",
+  },
+  {
+    id: "2",
+    title: "ProfitGuard",
+    description:
+      "Control, análisis y objetivos de ingresos y gastos con elegancia",
+    longDescription:
+      "Domina tus finanzas con elegancia. ProfitGuard ofrece control, análisis y objetivos de ingresos y gastos. Una plataforma integral para visualizar y gestionar tu salud financiera con gráficos detallados y una interfaz moderna.",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Recharts",
+      "Next.js"
+    ],
+    imageUrl: profitGuardImage,
+    githubUrl: "#", // Placeholder as none provided
+    liveUrl: "https://profit-guard-frontend.vercel.app/",
     featured: true,
     status: "completed",
   },
